@@ -15,4 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  base: '/zx_game-ref/'  // Ajoute cette ligne pour spécifier le chemin de base sur GitHub Pages
 })
